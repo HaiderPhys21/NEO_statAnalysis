@@ -24,7 +24,7 @@ The main objectives of this project are:
 
 To explore and replicate our analysis, follow these steps:
 
-1. **Clone the Repository:** Start by cloning this repository to your local machine using `git clone https://github.com/yourusername/NEOs-Statistical-Analysis.git`.
+1. **Clone the Repository:** Start by cloning this repository to your local machine using `git clone https://github.com/HaiderPhys21/NEO_statAnalysis.git`.
 
 2. **Install Dependencies:** Navigate to the project directory and install the required dependencies using `pip install -r requirements.txt`.
 
