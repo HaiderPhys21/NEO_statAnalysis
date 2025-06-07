@@ -1,38 +1,53 @@
 # Near Earth Objects (NEOs) Statistical Analysis Project
 
-![Asteroid](https://www.astronomy.com/wp-content/uploads/sites/2/2023/03/NearEarthasteroid.jpg?resize=600%2C400.jpg)
+![Asteroid](https://www.astronomy.com/wp-content/uploads/sites/2/2023/03/NearEarthasteroid.jpg?resize=600%2C400)
 
-## Introduction
+## Overview
 
-Welcome to the Near Earth Objects (NEOs) Statistical Analysis Project! In this project, we delve into the fascinating realm of near-Earth objects, particularly asteroids, with the aim of understanding their potential hazards and uncovering insights through data analysis and statistical techniques. NEOs, including asteroids and comets, can pose a threat to our planet due to their orbits intersecting with Earth's.
+This project explores Near Earth Objects (NEOs), particularly asteroids, to assess their potential hazard to Earth through data-driven statistical analysis. Using publicly available datasets and Python-based tools, we analyze orbital and physical properties of asteroids and apply logistic regression to model their hazard classification.
 
-## Project Objectives
+## Objectives
 
-The main objectives of this project are:
-
-1. **Data Exploration and Cleaning:** We begin by collecting data on near-Earth objects, specifically asteroids, and then clean and organize it for analysis. Excel's power query is utilized to ensure data quality.
-
-2. **Exploratory Data Analysis (EDA):** The next step involves a comprehensive exploration of the data. Using Python notebooks, we perform initial data inspection, analyze individual variables, and uncover relationships between variables using correlation analysis. This EDA process allows us to gain valuable insights into the dataset.
-
-3. **Statistical Analysis:** With a clean dataset and insights from EDA, we dive into statistical analysis. We investigate various aspects such as the relationship between asteroid size and hazard potential, orbital characteristics' influence on hazard potential, and comparisons among different asteroid types and their characteristics.
-
-4. **Logistic Regression Modeling:** To predict the hazard potential of NEOs, we employ a logistic regression model. This machine learning approach allows us to assess the likelihood of an asteroid being hazardous based on its attributes. We discuss the model's performance and interpret the results.
-
-5. **Conclusion and Implications:** The project concludes with a comprehensive summary of our findings. We emphasize the importance of continued research and monitoring of NEOs, particularly hazardous asteroids. Our insights can aid in devising strategies for mitigating potential impacts and ensuring planetary safety.
+- **Data Collection & Cleaning**: Acquire NEO data, clean it using Excel Power Query and Python.
+- **Exploratory Data Analysis (EDA)**: Analyze variable distributions, correlations, and patterns.
+- **Statistical Analysis**: Examine how size, orbit, and type relate to hazard potential.
+- **Logistic Regression**: Train a model to classify whether an asteroid is potentially hazardous.
+- **Insights & Conclusion**: Summarize findings and their implications for planetary defense.
 
 ## Getting Started
 
-To explore and replicate our analysis, follow these steps:
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/HaiderPhys21/NEO_statAnalysis.git
 
-1. **Clone the Repository:** Start by cloning this repository to your local machine using `git clone https://github.com/HaiderPhys21/NEO_statAnalysis.git`.
 
-2. **Install Dependencies:** Navigate to the project directory and install the required dependencies using `pip install -r requirements.txt`.
+2. **Install Dependencies**
 
-3. **Explore Notebooks:** Dive into the `notebooks` directory to explore Jupyter notebooks detailing the data cleaning, exploratory analysis, statistical tests, and the logistic regression model.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## Contribution and Feedback
+3. **Run the Analysis**
+   Explore Jupyter notebooks in the `notebooks/` directory, which walk through:
 
-Contributions and feedback are highly encouraged! If you have ideas for improving the analysis, code, or documentation, feel free to open issues and submit pull requests. Let's collaborate to enhance our understanding of NEOs and their potential impact on Earth.
+   * Data cleaning
+   * EDA
+   * Logistic regression modeling
+
+## Repository Structure
+
+```text
+NEO_statAnalysis/
+├── data/             # Input data files (optional or downloadable)
+├── notebooks/        # Jupyter notebooks with analysis steps
+├── requirements.txt  # Python dependencies
+├── LICENSE
+└── README.md
+```
+
+## Citation
+
+If you use this project in your research, please cite it using the Zenodo DOI (after publishing to Zenodo).
 
 ## License
 
@@ -40,5 +55,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-By [Syed Haider Ali](https://github.com/HaiderPhys21)
-.
+Created by [Syed Haider Ali](https://github.com/HaiderPhys21)
+
+
