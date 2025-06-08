@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "NEO_statAnalysis: Statistical Inference on Near Earth Object Hazards"
+version: "1.0.0"
+date-released: 2024-06-08
+authors:
+  - family-names: Ali
+    given-names: Syed Haider
+    affiliation: Pakistan Intitute of Engineering and Applied Sciences
+repository-code: https://github.com/HaiderPhys21/NEO_statAnalysis
+license: MIT
+keywords:
+  - near-earth objects
+  - asteroid hazard
+  - logistic regression
+  - data analysis
+  - planetary defense
