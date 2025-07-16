@@ -1,6 +1,7 @@
 # Near Earth Objects (NEOs) Statistical Analysis Project
 
-![Asteroid](https://www.astronomy.com/wp-content/uploads/sites/2/2023/03/NearEarthasteroid.jpg?resize=600%2C400)
+<img width="690" height="578" alt="image" src="https://github.com/user-attachments/assets/4c665ab9-d80e-427e-901f-60cfa6cdaf73" />
+
 
 ## Overview
 
